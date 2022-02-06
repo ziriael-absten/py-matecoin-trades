@@ -1,0 +1,42 @@
+{
+  "12_10_21": {
+    "bought": "0.00085",
+    "sold": null,
+    "matecoin_price": "65980.63"
+  },
+  "14_10_21": {
+    "bought": "0.00009",
+    "sold": null,
+    "matecoin_price": "65384.98"
+  },
+  "17_10_21": {
+    "bought": "0.00011",
+    "sold": null,
+    "matecoin_price": "48911.23"
+  },
+  "20_10_21": {
+    "bought": null,
+    "sold": "0.00058",
+    "matecoin_price": "77830.83"
+  },
+  "25_10_21": {
+    "bought": "0.0013",
+    "sold": null,
+    "matecoin_price": "60340.78"
+  },
+  "30_10_21": {
+    "bought": null,
+    "sold": "0.0003",
+    "matecoin_price": "93789.11"
+  },
+  "4_11_21": {
+    "bought": "0.0007",
+    "sold": null,
+    "matecoin_price": "60340.55"
+  },
+  "9_11_21": {
+    "bought": null,
+    "sold": "0.0021",
+    "matecoin_price": "78366.14"
+  }
+}
