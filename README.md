@@ -2,7 +2,7 @@
 
 - Read [the guideline](https://github.com/mate-academy/py-task-guideline/blob/main/README.md) before start
 
-You have made some trades with new cryptocurrency "Matecoin".
+You have made some trades with the new cryptocurrency "Matecoin".
 In order to calculate profit you loaded json-file `trades.json` with 
 trades description. Content of that file is `list of JavaScript Objects`,
 `js objects` very similar to 
@@ -28,9 +28,9 @@ Example:
 ]
 ```
 
-Write `calculate_profit` function, that takes name of file with
+Write `calculate_profit` function, which takes the name of the file with
 trades information, converts inside data into python native data
-structure, counts money profit and current coin account, dumps
+structure, counts money profit in dollars and current coin account, dumps
 that information in json and saves
 in file `profit.json`
 ```javascript
