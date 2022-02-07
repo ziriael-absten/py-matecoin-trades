@@ -4,28 +4,28 @@
 
 You have made some trades with new cryptocurrency "Matecoin".
 In order to calculate profit you loaded json-file `trades.json` with 
-trades description. Content of that file is `JsvsScript Object`
-which is very similar to 
-python `dict`, where keys are dates of trades and values are
-objects with keys `"bought"` - volume of coins, if you bought, 
+trades description. Content of that file is `list of JavaScript Objects`,
+`js objects` very similar to 
+python `dict`, where keys are  `"bought"` - volume of coins, 
+if you bought, 
 `"sold"` - volume of coins, if you sold and `matecoin_price` -
 price for 1 Matecoin in dollars that day.
 
 Example:
 ```javascript
-# trades.json
-{
-  "17_10_21": {
+// trades.json
+[
+  {
     "bought": "0.00111",
     "sold": null,
     "matecoin_price": "48911.23"
   },
-  "20_10_21": {
+  {
     "bought": null,
     "sold": "0.00058",
     "matecoin_price": "77830.83"
   }
-}
+]
 ```
 
 Write `calculate_profit` function, that takes name of file with
@@ -34,12 +34,12 @@ structure, counts money profit and current coin account, dumps
 that information in json and saves
 in file `profit.json`
 ```javascript
-# profit.json
+// profit.json
 {
   "earned_money": "-9.1495839",
   "matecoin_account": "0.00053"
 }
 ```
 Use should use `Decimal` instead of `float` here, because `float`
-do not provide sufficient accuracy for monetary transactions
+do not provide sufficient accuracy for monetary transactions.
 All numbers in json should be presented in string format.
