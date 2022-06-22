@@ -102,7 +102,7 @@ def test_optional_create_profit_file(mock_json_load, trades, profit, monkeypatch
     with CleanUpFile(PROFIT):
         dump_content = None
 
-        def mocked_dump(content, file, *args, **kwargs):
+        def mocked_dump(content, *args, **kwargs):
             nonlocal dump_content
             dump_content = content
 
