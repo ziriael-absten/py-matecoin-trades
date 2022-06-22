@@ -43,3 +43,5 @@ in file `profit.json`
 Use should use `Decimal` instead of `float` here, because `float`
 do not provide sufficient accuracy for monetary transactions.
 All numbers in json should be presented in string format.
+
+IMPORTANT: use `load` and `dump` methods for write/read.
